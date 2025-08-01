@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    
+}
+body {
+font-family: 'Times New Roman', Times, serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    color: bisque;
+}
+a:hover{
+    color: sienna;
+    text-decoration: underline;
+}
+a {
+    font-size: 10vh;
+    color: black
+}
+nav {
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 5vh;
+}
+.icon {
+    font-size: 10vh;
+    padding-bottom: 20vh;
+    
+}
+nav, .icon {
+ display: flex;   
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+section {
+    padding-top:4vh ;
+    height: 96vh;
+    margin:0 10rem ;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.img_container {
+    display: flex;
+    justify-content: left;
+    height: 80vh;
+    margin-top: 6vh;
+    width: 100%;
+
+}
+.socialmedia{
+   display: flex;
+   height: 50px;
+   gap: 6.8rem;
+}
+.anotherimage{
+    display: flex;
+    height: 20vh;
+    width: auto;
+}
+.MusicClass{
+    display: flex;
+    position: relative;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+.btnclass{
+
+
+}
